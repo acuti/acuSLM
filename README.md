@@ -7,9 +7,9 @@ This code aims at obtaining various acoustic level parameters from a microphone 
 ## Code Example
 
 At present, this code only runs by a call on a CLI. Provided your machine meets all dipendencies (see [Installation](https://github.com/acuti/acuSLM#installation) below), it is as simple as running:
-'''
+```
 python -i acuSLM.py
-'''
+```
 in your cloned directory (*-i* option logs you to a python session at the end of the script run where values are stored for variables of the run. etc.).
 The first run is meant for calibration.  You need to tweak the constants at the beginning of acuSLM.py, in particular:
 - *SENSITIVITY* (mV/Pa) to match your microphone sensitivity
