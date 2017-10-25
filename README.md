@@ -14,6 +14,7 @@ The first run is meant for calibration.  You need to tweak the constants at the 
 - *SENSITIVITY* (mV/Pa) to match your microphone sensitivity
 - *CALIBRATION* (dB), for compensation of level drift from calibrator reference level
 - possibly *MAXMV*, to convert the normalized array to milliVolts.
+
 I would suggest not touching the other constants.
 
 ## Motivation
