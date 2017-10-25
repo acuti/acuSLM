@@ -7,13 +7,13 @@ This code aims at obtaining various acoustic level parameters from a microphone 
 ## Code Example
 
 At present, this code only runs by a call on a CLI. Provided your machine meets all dipendencies (see Installation below), it is as simple as running:
-- python -i acuSLM.py
+- *python -i acuSLM.py*
 
-in your cloned directory.
+in your cloned directory (*-i* option logs you to a python session at the end of the script run where values are stored for variables of the run. etc.).
 The first run is meant for calibration.  You need to tweak the constants at the beginning of acuSLM.py, in particular:
-- SENSITIVITY (mV/Pa) to match your microphone sensitivity
-- CALIBRATION (dB), for compensation of level drift from calibrator reference level
-- possibly MAXMV, to convert the normalized array to milliVolts.
+- *SENSITIVITY* (mV/Pa) to match your microphone sensitivity
+- *CALIBRATION* (dB), for compensation of level drift from calibrator reference level
+- possibly *MAXMV*, to convert the normalized array to milliVolts.
 I would suggest not touching the other constants.
 
 ## Motivation
@@ -34,13 +34,13 @@ wip
 
 ## Tests
 
-See Code Example for calibration and testing.  The hardcoded constants in acuSLM.py allow for my microphone to be calibrated correctly.  However I have not done any side-by-side testing with a certified SLM yet. If you manage to, any feedback would be  mostly appreciated.
+See Code Example for calibration and testing.  The hardcoded constants in *acuSLM.py* allow for my microphone to be calibrated correctly.  However I have not done any side-by-side testing with a certified SLM yet. If you manage to, any feedback would be  mostly appreciated.
 This software comes with no warranty whatsoever, expecially with regards to providing meaningful sound level readings.
 
 ## Contributors
 
-- pieracuti - acustica@acuti,net
-- The script "A_weignting.py is by endolith, you can find his repository at: https://gist.github.com/endolith/148112
+- *pieracuti - acustica@acuti.net*
+- The script *A_weighting.py* is by *endolith*, you can find his repository at: https://gist.github.com/endolith/148112
 
 ## License
 
