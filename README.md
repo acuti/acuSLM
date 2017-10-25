@@ -23,7 +23,7 @@ The GPL license will hopefully ease contributions, both for testing and developm
 
 ## Installation
 
-At present the code runs on a CLI (see Code Example).  These are the external python modules it depends on:
+At present the code runs on a CLI (see [Code Example](https://github.com/acuti/acuSLM#code-example)).  These are the external python modules it depends on:
 - pyaudio
 - numpy
 - scipy
@@ -34,14 +34,14 @@ wip
 
 ## Tests
 
-See Code Example for calibration and testing.  The hardcoded constants in *acuSLM.py* allow for my microphone to be calibrated correctly.  However I have not done any side-by-side testing with a certified SLM yet. If you manage to, any feedback would be  mostly appreciated.
+See [Code Example](https://github.com/acuti/acuSLM#code-example) for calibration and testing.  The hardcoded constants in *acuSLM.py* allow for my microphone to be calibrated correctly.  However I have not done any side-by-side testing with a certified SLM yet. If you manage to, any feedback would be  mostly appreciated.
 This software comes with no warranty whatsoever, expecially with regards to providing meaningful sound level readings.
 
 ## Contributors
 
-- *pieracuti - acustica@acuti.net*
-- The script *A_weighting.py* is by *endolith*, you can find his repository at: https://gist.github.com/endolith/148112
+- *pieracuti* - Pierpaolo Pilla, *acustica@acuti.net*
+- The script *A_weighting.py* is by @endolith, you can find his repository [here](https://gist.github.com/endolith/148112)
 
 ## License
 
-GPLv3
+[AGPL](https://www.gnu.org/licenses/agpl.html)
