@@ -8,6 +8,7 @@ This code aims at obtaining various acoustic level parameters from a microphone 
 
 At present, this code only runs by a call on a CLI. Provided your machine meets all dipendencies (see Installation below), it is as simple as running:
 - python -i acuSLM.py
+
 in your cloned directory.
 The first run is meant for calibration.  You need to tweak the constants at the beginning of acuSLM.py, in particular:
 - SENSITIVITY (mV/Pa) to match your microphone sensitivity
@@ -38,8 +39,8 @@ This software comes with no warranty whatsoever, expecially with regards to prov
 
 ## Contributors
 
-pieracuti - acustica@acuti,net
-The script "A_weignting.py is by endolith, you can find his repository at: https://gist.github.com/endolith/148112
+- pieracuti - acustica@acuti,net
+- The script "A_weignting.py is by endolith, you can find his repository at: https://gist.github.com/endolith/148112
 
 ## License
 
